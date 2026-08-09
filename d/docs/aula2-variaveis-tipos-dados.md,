@@ -1,0 +1,35 @@
+# Linguagem: Python
+
+# Função para criar um arquivo markdown com conteúdo bruto
+def criar_markdown_raw(nome_arquivo, conteudo):
+    """
+    Cria um arquivo markdown (.md) no modo raw.
+    
+    Parâmetros:
+    nome_arquivo (str): Nome do arquivo que será criado (ex: 'exemplo.md')
+    conteudo (str): Conteúdo que será gravado no arquivo
+    """
+    # Abre o arquivo em modo escrita ('w'), garantido que os caracteres serão escritos como estão
+    with open(nome_arquivo, 'w', encoding='utf-8') as arquivo:
+        arquivo.write(conteudo)
+
+# Exemplo de uso da função
+if __name__ == "__main__":
+    conteudo_raw = """
+# Título do Markdown
+Este é um exemplo de conteúdo **bruto** em Markdown.
+
+- Item 1
+- Item 2
+- Item 3
+
+> Esta é uma citação no modo raw.
+
+`Código inline` e bloco de código:
+
+def exemplo():
+print("Olá, mundo!")
+"""
+    criar_markdown_raw("exemplo_raw.md", conteudo_raw)
+    print("Arquivo 'exemplo_raw.md' criado com sucesso!")
+Como funciona:d
