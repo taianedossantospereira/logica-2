@@ -1,0 +1,16 @@
+# Repositórios Remotos
+
+## O que são repositórios remotos
+
+Um **repositório remoto** é uma versão de um projeto Git hospedada em algum servidor ou serviço online, como GitHub, GitLab, Bitbucket ou serviços próprios de uma empresa. Ele permite a colaboração entre várias pessoas, sincronizando alterações do código de forma eficiente.
+
+## Diferença entre repositório local e remoto
+
+- **Repositório Local:** É o repositório presente na máquina do desenvolvedor. Contém todo o histórico do projeto e permite fazer commits, criar branchs e modificar arquivos.
+- **Repositório Remoto:** É uma cópia centralizada do projeto que pode ser acessada por vários desenvolvedores. Ele recebe alterações do repositório local através de comandos Git como `push` e envia atualizações para o repositório local usando `pull` ou `fetch`.
+
+## Comandos comuns relacionados a repositórios remotos
+
+### Clonar um repositório remoto
+```bash
+git clone <url-do-repositorio>
