@@ -1,0 +1,11 @@
+# Páginas Estáticas no GitHub
+
+## Definição
+Páginas estáticas no GitHub, conhecidas como **GitHub Pages**, são sites hospedados diretamente de um repositório GitHub. Esses sites podem ser utilizados para blogs, portfólios, documentação de projetos ou qualquer conteúdo que não necessite de processamento do lado do servidor. GitHub Pages transforma arquivos HTML, CSS e JavaScript em uma página acessível via web.
+
+## Explicação sobre a Criação
+
+### 1. Criação do Repositório
+Para começar, crie um repositório no GitHub. Ele pode ser público ou privado (dependendo do plano do usuário, repositórios privados também podem ser utilizados com GitHub Pages).
+
+### 2. Estrutura de Arquivos
