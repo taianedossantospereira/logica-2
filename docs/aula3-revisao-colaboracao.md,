@@ -1,0 +1,14 @@
+# Guia de Trabalho com GitHub: Processos, Colaboração e Boas Práticas
+
+O GitHub é uma plataforma amplamente utilizada para controle de versão e colaboração em projetos de software. A seguir, apresentamos uma visão detalhada do processo de trabalho, formas de colaboração e boas práticas.
+
+## 1. Processo de Trabalho no GitHub
+
+### a) Criação de Repositórios
+- Inicie criando um repositório no GitHub para o projeto.
+- Escolha entre repositório público (acessível a todos) ou privado (restrito aos colaboradores).
+- Configure README.md, licença e `.gitignore` conforme necessário.
+
+### b) Clone do Repositório
+```bash
+git clone https://github.com/usuario/repositorio.git
